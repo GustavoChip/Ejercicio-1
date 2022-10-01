@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    font-size: 23px;
+    font-family: 'consolas';
+    margin: 30px;
+    padding-bottom: 40px;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+ul{
+    list-style: none;
+}
+
+.text1{
+    font-size: 44px;
+    font-family: 'Lucida Console';
+    margin: 0px 70px 100px 70px;
+    line-height: 70px;
+}
+
+.text2{
+    font-size: 24px;
+    font-family: 'Courier New';
+    padding-right: 125px;
+    margin: 50px 70px;
+
+}
+
+input{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 35px;
+    background-color: rgb(41, 37, 37);
+    color:white;
+    border-color:rgb(41, 37, 37);
+    font-family: 'Bahnschrift';
+    margin: 40px 70px;
+}
+
+input:hover{
+    background-color: white;
+    color: black;
+    font-family: 'Bahnschrift';
+}
+
+footer{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    pad: 2rem 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    font-family: 'Century Gothic';
+}
+
